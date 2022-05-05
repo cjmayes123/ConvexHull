@@ -140,4 +140,4 @@ merged = merged.drop(['x'],axis=1)
 
 #rename the oldx to x back
 merged = merged.rename({'oldx': 'x'}, axis=1)
-merged.to_csv('merged.csv')
+merged.to_csv('dataset.csv')
